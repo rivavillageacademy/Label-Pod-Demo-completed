@@ -1,0 +1,747 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9AC5631824FBFC6A00F34D88 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AC5631724FBFC6A00F34D88 /* AppDelegate.swift */; };
+		9AC5631A24FBFC6A00F34D88 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AC5631924FBFC6A00F34D88 /* SceneDelegate.swift */; };
+		9AC5631C24FBFC6A00F34D88 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AC5631B24FBFC6A00F34D88 /* ViewController.swift */; };
+		9AC5631F24FBFC6A00F34D88 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9AC5631D24FBFC6A00F34D88 /* Main.storyboard */; };
+		9AC5632124FBFC6B00F34D88 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9AC5632024FBFC6B00F34D88 /* Assets.xcassets */; };
+		9AC5632424FBFC6B00F34D88 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9AC5632224FBFC6B00F34D88 /* LaunchScreen.storyboard */; };
+		9AC5632F24FBFC6B00F34D88 /* Pod_Toturial_1Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AC5632E24FBFC6B00F34D88 /* Pod_Toturial_1Tests.swift */; };
+		9AC5633A24FBFC6B00F34D88 /* Pod_Toturial_1UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AC5633924FBFC6B00F34D88 /* Pod_Toturial_1UITests.swift */; };
+		DB5546428FC8750B1E0B2BCD /* Pods_Pod_Toturial_1.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2B5759FCECF7802919E10C1B /* Pods_Pod_Toturial_1.framework */; };
+		DC326241FBF44050BA16F928 /* Pods_Pod_Toturial_1Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BCD5E6980E73A37E17C1E050 /* Pods_Pod_Toturial_1Tests.framework */; };
+		FF93FBF4738B0E0E3099D6A7 /* Pods_Pod_Toturial_1_Pod_Toturial_1UITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE3CA87D954D734C185DF216 /* Pods_Pod_Toturial_1_Pod_Toturial_1UITests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9AC5632B24FBFC6B00F34D88 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9AC5630C24FBFC6A00F34D88 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9AC5631324FBFC6A00F34D88;
+			remoteInfo = "Pod Toturial 1";
+		};
+		9AC5633624FBFC6B00F34D88 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9AC5630C24FBFC6A00F34D88 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9AC5631324FBFC6A00F34D88;
+			remoteInfo = "Pod Toturial 1";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2B5759FCECF7802919E10C1B /* Pods_Pod_Toturial_1.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Pod_Toturial_1.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		60C55B737E34B9B434DC757C /* Pods-Pod Toturial 1.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Pod Toturial 1.debug.xcconfig"; path = "Target Support Files/Pods-Pod Toturial 1/Pods-Pod Toturial 1.debug.xcconfig"; sourceTree = "<group>"; };
+		75398B9201DD820DABF61714 /* Pods-Pod Toturial 1Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Pod Toturial 1Tests.debug.xcconfig"; path = "Target Support Files/Pods-Pod Toturial 1Tests/Pods-Pod Toturial 1Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		7AD69561FCFAE3E5959ED486 /* Pods-Pod Toturial 1Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Pod Toturial 1Tests.release.xcconfig"; path = "Target Support Files/Pods-Pod Toturial 1Tests/Pods-Pod Toturial 1Tests.release.xcconfig"; sourceTree = "<group>"; };
+		9AC5631424FBFC6A00F34D88 /* Pod Toturial 1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Pod Toturial 1.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9AC5631724FBFC6A00F34D88 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		9AC5631924FBFC6A00F34D88 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		9AC5631B24FBFC6A00F34D88 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		9AC5631E24FBFC6A00F34D88 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		9AC5632024FBFC6B00F34D88 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9AC5632324FBFC6B00F34D88 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		9AC5632524FBFC6B00F34D88 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9AC5632A24FBFC6B00F34D88 /* Pod Toturial 1Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Pod Toturial 1Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9AC5632E24FBFC6B00F34D88 /* Pod_Toturial_1Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pod_Toturial_1Tests.swift; sourceTree = "<group>"; };
+		9AC5633024FBFC6B00F34D88 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9AC5633524FBFC6B00F34D88 /* Pod Toturial 1UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Pod Toturial 1UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9AC5633924FBFC6B00F34D88 /* Pod_Toturial_1UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pod_Toturial_1UITests.swift; sourceTree = "<group>"; };
+		9AC5633B24FBFC6B00F34D88 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9ECF235CB297B250560DE0A3 /* Pods-Pod Toturial 1-Pod Toturial 1UITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Pod Toturial 1-Pod Toturial 1UITests.release.xcconfig"; path = "Target Support Files/Pods-Pod Toturial 1-Pod Toturial 1UITests/Pods-Pod Toturial 1-Pod Toturial 1UITests.release.xcconfig"; sourceTree = "<group>"; };
+		A20E8A216F23901D285C3CDE /* Pods-Pod Toturial 1.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Pod Toturial 1.release.xcconfig"; path = "Target Support Files/Pods-Pod Toturial 1/Pods-Pod Toturial 1.release.xcconfig"; sourceTree = "<group>"; };
+		BCD5E6980E73A37E17C1E050 /* Pods_Pod_Toturial_1Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Pod_Toturial_1Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CD324C20D4664B21CC29BC69 /* Pods-Pod Toturial 1-Pod Toturial 1UITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Pod Toturial 1-Pod Toturial 1UITests.debug.xcconfig"; path = "Target Support Files/Pods-Pod Toturial 1-Pod Toturial 1UITests/Pods-Pod Toturial 1-Pod Toturial 1UITests.debug.xcconfig"; sourceTree = "<group>"; };
+		CE3CA87D954D734C185DF216 /* Pods_Pod_Toturial_1_Pod_Toturial_1UITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Pod_Toturial_1_Pod_Toturial_1UITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9AC5631124FBFC6A00F34D88 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DB5546428FC8750B1E0B2BCD /* Pods_Pod_Toturial_1.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9AC5632724FBFC6B00F34D88 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DC326241FBF44050BA16F928 /* Pods_Pod_Toturial_1Tests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9AC5633224FBFC6B00F34D88 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FF93FBF4738B0E0E3099D6A7 /* Pods_Pod_Toturial_1_Pod_Toturial_1UITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		46BC28369AF119B1ADDF3509 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				60C55B737E34B9B434DC757C /* Pods-Pod Toturial 1.debug.xcconfig */,
+				A20E8A216F23901D285C3CDE /* Pods-Pod Toturial 1.release.xcconfig */,
+				CD324C20D4664B21CC29BC69 /* Pods-Pod Toturial 1-Pod Toturial 1UITests.debug.xcconfig */,
+				9ECF235CB297B250560DE0A3 /* Pods-Pod Toturial 1-Pod Toturial 1UITests.release.xcconfig */,
+				75398B9201DD820DABF61714 /* Pods-Pod Toturial 1Tests.debug.xcconfig */,
+				7AD69561FCFAE3E5959ED486 /* Pods-Pod Toturial 1Tests.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		9AC5630B24FBFC6A00F34D88 = {
+			isa = PBXGroup;
+			children = (
+				9AC5631624FBFC6A00F34D88 /* Pod Toturial 1 */,
+				9AC5632D24FBFC6B00F34D88 /* Pod Toturial 1Tests */,
+				9AC5633824FBFC6B00F34D88 /* Pod Toturial 1UITests */,
+				9AC5631524FBFC6A00F34D88 /* Products */,
+				46BC28369AF119B1ADDF3509 /* Pods */,
+				DC3208FEDADBFD4C2848C261 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		9AC5631524FBFC6A00F34D88 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9AC5631424FBFC6A00F34D88 /* Pod Toturial 1.app */,
+				9AC5632A24FBFC6B00F34D88 /* Pod Toturial 1Tests.xctest */,
+				9AC5633524FBFC6B00F34D88 /* Pod Toturial 1UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9AC5631624FBFC6A00F34D88 /* Pod Toturial 1 */ = {
+			isa = PBXGroup;
+			children = (
+				9AC5631724FBFC6A00F34D88 /* AppDelegate.swift */,
+				9AC5631924FBFC6A00F34D88 /* SceneDelegate.swift */,
+				9AC5631B24FBFC6A00F34D88 /* ViewController.swift */,
+				9AC5631D24FBFC6A00F34D88 /* Main.storyboard */,
+				9AC5632024FBFC6B00F34D88 /* Assets.xcassets */,
+				9AC5632224FBFC6B00F34D88 /* LaunchScreen.storyboard */,
+				9AC5632524FBFC6B00F34D88 /* Info.plist */,
+			);
+			path = "Pod Toturial 1";
+			sourceTree = "<group>";
+		};
+		9AC5632D24FBFC6B00F34D88 /* Pod Toturial 1Tests */ = {
+			isa = PBXGroup;
+			children = (
+				9AC5632E24FBFC6B00F34D88 /* Pod_Toturial_1Tests.swift */,
+				9AC5633024FBFC6B00F34D88 /* Info.plist */,
+			);
+			path = "Pod Toturial 1Tests";
+			sourceTree = "<group>";
+		};
+		9AC5633824FBFC6B00F34D88 /* Pod Toturial 1UITests */ = {
+			isa = PBXGroup;
+			children = (
+				9AC5633924FBFC6B00F34D88 /* Pod_Toturial_1UITests.swift */,
+				9AC5633B24FBFC6B00F34D88 /* Info.plist */,
+			);
+			path = "Pod Toturial 1UITests";
+			sourceTree = "<group>";
+		};
+		DC3208FEDADBFD4C2848C261 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2B5759FCECF7802919E10C1B /* Pods_Pod_Toturial_1.framework */,
+				CE3CA87D954D734C185DF216 /* Pods_Pod_Toturial_1_Pod_Toturial_1UITests.framework */,
+				BCD5E6980E73A37E17C1E050 /* Pods_Pod_Toturial_1Tests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9AC5631324FBFC6A00F34D88 /* Pod Toturial 1 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9AC5633E24FBFC6B00F34D88 /* Build configuration list for PBXNativeTarget "Pod Toturial 1" */;
+			buildPhases = (
+				031B75E1843227BC27026551 /* [CP] Check Pods Manifest.lock */,
+				9AC5631024FBFC6A00F34D88 /* Sources */,
+				9AC5631124FBFC6A00F34D88 /* Frameworks */,
+				9AC5631224FBFC6A00F34D88 /* Resources */,
+				1D71373B8A93D4F207F9431F /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pod Toturial 1";
+			productName = "Pod Toturial 1";
+			productReference = 9AC5631424FBFC6A00F34D88 /* Pod Toturial 1.app */;
+			productType = "com.apple.product-type.application";
+		};
+		9AC5632924FBFC6B00F34D88 /* Pod Toturial 1Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9AC5634124FBFC6B00F34D88 /* Build configuration list for PBXNativeTarget "Pod Toturial 1Tests" */;
+			buildPhases = (
+				0AD0FDFBD17C62BE9A5B90CE /* [CP] Check Pods Manifest.lock */,
+				9AC5632624FBFC6B00F34D88 /* Sources */,
+				9AC5632724FBFC6B00F34D88 /* Frameworks */,
+				9AC5632824FBFC6B00F34D88 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9AC5632C24FBFC6B00F34D88 /* PBXTargetDependency */,
+			);
+			name = "Pod Toturial 1Tests";
+			productName = "Pod Toturial 1Tests";
+			productReference = 9AC5632A24FBFC6B00F34D88 /* Pod Toturial 1Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		9AC5633424FBFC6B00F34D88 /* Pod Toturial 1UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9AC5634424FBFC6B00F34D88 /* Build configuration list for PBXNativeTarget "Pod Toturial 1UITests" */;
+			buildPhases = (
+				21F909221BF88566AA55B130 /* [CP] Check Pods Manifest.lock */,
+				9AC5633124FBFC6B00F34D88 /* Sources */,
+				9AC5633224FBFC6B00F34D88 /* Frameworks */,
+				9AC5633324FBFC6B00F34D88 /* Resources */,
+				48BC26B074D88C221C0B0CDF /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9AC5633724FBFC6B00F34D88 /* PBXTargetDependency */,
+			);
+			name = "Pod Toturial 1UITests";
+			productName = "Pod Toturial 1UITests";
+			productReference = 9AC5633524FBFC6B00F34D88 /* Pod Toturial 1UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9AC5630C24FBFC6A00F34D88 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1200;
+				LastUpgradeCheck = 1200;
+				TargetAttributes = {
+					9AC5631324FBFC6A00F34D88 = {
+						CreatedOnToolsVersion = 12.0;
+					};
+					9AC5632924FBFC6B00F34D88 = {
+						CreatedOnToolsVersion = 12.0;
+						TestTargetID = 9AC5631324FBFC6A00F34D88;
+					};
+					9AC5633424FBFC6B00F34D88 = {
+						CreatedOnToolsVersion = 12.0;
+						TestTargetID = 9AC5631324FBFC6A00F34D88;
+					};
+				};
+			};
+			buildConfigurationList = 9AC5630F24FBFC6A00F34D88 /* Build configuration list for PBXProject "Pod Toturial 1" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9AC5630B24FBFC6A00F34D88;
+			productRefGroup = 9AC5631524FBFC6A00F34D88 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9AC5631324FBFC6A00F34D88 /* Pod Toturial 1 */,
+				9AC5632924FBFC6B00F34D88 /* Pod Toturial 1Tests */,
+				9AC5633424FBFC6B00F34D88 /* Pod Toturial 1UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9AC5631224FBFC6A00F34D88 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9AC5632424FBFC6B00F34D88 /* LaunchScreen.storyboard in Resources */,
+				9AC5632124FBFC6B00F34D88 /* Assets.xcassets in Resources */,
+				9AC5631F24FBFC6A00F34D88 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9AC5632824FBFC6B00F34D88 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9AC5633324FBFC6B00F34D88 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		031B75E1843227BC27026551 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Pod Toturial 1-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		0AD0FDFBD17C62BE9A5B90CE /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Pod Toturial 1Tests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		1D71373B8A93D4F207F9431F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Pod Toturial 1/Pods-Pod Toturial 1-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Pod Toturial 1/Pods-Pod Toturial 1-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Pod Toturial 1/Pods-Pod Toturial 1-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		21F909221BF88566AA55B130 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Pod Toturial 1-Pod Toturial 1UITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		48BC26B074D88C221C0B0CDF /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Pod Toturial 1-Pod Toturial 1UITests/Pods-Pod Toturial 1-Pod Toturial 1UITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Pod Toturial 1-Pod Toturial 1UITests/Pods-Pod Toturial 1-Pod Toturial 1UITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Pod Toturial 1-Pod Toturial 1UITests/Pods-Pod Toturial 1-Pod Toturial 1UITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9AC5631024FBFC6A00F34D88 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9AC5631C24FBFC6A00F34D88 /* ViewController.swift in Sources */,
+				9AC5631824FBFC6A00F34D88 /* AppDelegate.swift in Sources */,
+				9AC5631A24FBFC6A00F34D88 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9AC5632624FBFC6B00F34D88 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9AC5632F24FBFC6B00F34D88 /* Pod_Toturial_1Tests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9AC5633124FBFC6B00F34D88 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9AC5633A24FBFC6B00F34D88 /* Pod_Toturial_1UITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9AC5632C24FBFC6B00F34D88 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9AC5631324FBFC6A00F34D88 /* Pod Toturial 1 */;
+			targetProxy = 9AC5632B24FBFC6B00F34D88 /* PBXContainerItemProxy */;
+		};
+		9AC5633724FBFC6B00F34D88 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9AC5631324FBFC6A00F34D88 /* Pod Toturial 1 */;
+			targetProxy = 9AC5633624FBFC6B00F34D88 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		9AC5631D24FBFC6A00F34D88 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9AC5631E24FBFC6A00F34D88 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		9AC5632224FBFC6B00F34D88 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9AC5632324FBFC6B00F34D88 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9AC5633C24FBFC6B00F34D88 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		9AC5633D24FBFC6B00F34D88 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9AC5633F24FBFC6B00F34D88 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 60C55B737E34B9B434DC757C /* Pods-Pod Toturial 1.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Pod Toturial 1/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.rivavillageacademy.Pod-Toturial-1";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		9AC5634024FBFC6B00F34D88 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A20E8A216F23901D285C3CDE /* Pods-Pod Toturial 1.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Pod Toturial 1/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.rivavillageacademy.Pod-Toturial-1";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		9AC5634224FBFC6B00F34D88 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 75398B9201DD820DABF61714 /* Pods-Pod Toturial 1Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Pod Toturial 1Tests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.rivavillageacademy.Pod-Toturial-1Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Pod Toturial 1.app/Pod Toturial 1";
+			};
+			name = Debug;
+		};
+		9AC5634324FBFC6B00F34D88 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7AD69561FCFAE3E5959ED486 /* Pods-Pod Toturial 1Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Pod Toturial 1Tests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.rivavillageacademy.Pod-Toturial-1Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Pod Toturial 1.app/Pod Toturial 1";
+			};
+			name = Release;
+		};
+		9AC5634524FBFC6B00F34D88 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CD324C20D4664B21CC29BC69 /* Pods-Pod Toturial 1-Pod Toturial 1UITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Pod Toturial 1UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.rivavillageacademy.Pod-Toturial-1UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Pod Toturial 1";
+			};
+			name = Debug;
+		};
+		9AC5634624FBFC6B00F34D88 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9ECF235CB297B250560DE0A3 /* Pods-Pod Toturial 1-Pod Toturial 1UITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Pod Toturial 1UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.rivavillageacademy.Pod-Toturial-1UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Pod Toturial 1";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9AC5630F24FBFC6A00F34D88 /* Build configuration list for PBXProject "Pod Toturial 1" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9AC5633C24FBFC6B00F34D88 /* Debug */,
+				9AC5633D24FBFC6B00F34D88 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9AC5633E24FBFC6B00F34D88 /* Build configuration list for PBXNativeTarget "Pod Toturial 1" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9AC5633F24FBFC6B00F34D88 /* Debug */,
+				9AC5634024FBFC6B00F34D88 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9AC5634124FBFC6B00F34D88 /* Build configuration list for PBXNativeTarget "Pod Toturial 1Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9AC5634224FBFC6B00F34D88 /* Debug */,
+				9AC5634324FBFC6B00F34D88 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9AC5634424FBFC6B00F34D88 /* Build configuration list for PBXNativeTarget "Pod Toturial 1UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9AC5634524FBFC6B00F34D88 /* Debug */,
+				9AC5634624FBFC6B00F34D88 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9AC5630C24FBFC6A00F34D88 /* Project object */;
+}
